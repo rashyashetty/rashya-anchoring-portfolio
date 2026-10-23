@@ -71,6 +71,11 @@ nav a{text-decoration:none;color:var(--muted)} nav a:hover{color:var(--fg)}
 .cap .tc{font-family:var(--mono);font-size:12px;color:var(--gold);white-space:nowrap}
 .clip p{margin:0;font-size:14px;color:var(--muted)}
 
+.reels-head.sub{margin-top:clamp(40px,6vw,72px)}
+.soon{border:1.5px dashed var(--line);border-radius:4px;padding:24px;display:grid;gap:4px}
+.soon b{font-family:var(--display);font-size:20px}
+.soon span{color:var(--muted);font-size:15px;max-width:40em}
+
 /* about / services */
 .two{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(24px,5vw,64px)}
 .two p{margin:0 0 16px;max-width:38em}
@@ -121,31 +126,30 @@ footer{padding-block:32px 48px;font-size:13px;color:var(--muted);display:flex;ju
 
   <header class="hero">
     <div>
-      <p class="eyebrow">Anchor · Voice-over artist · Content creator</p>
+      <p class="eyebrow">Anchor · Voice-over artist · Story narrator</p>
       <h1>Rashya <span>Shetty</span></h1>
       <p class="role">Kundapura, Karnataka</p>
-      <p class="lede">A trilingual voice for live stages, podcasts and online courses. Clear diction, easy audience rapport, and a storytelling style that keeps a room with you.</p>
+      <p class="lede">Anchor and voice-over artist for events, podcasts and stories. I host formal and informal programmes in Kannada, English and Hindi, and I know a little Tulu.</p>
       <div class="cta">
-        <a class="btn solid" href="#reels">Watch the reels</a>
+        <a class="btn solid" href="#reels">Watch my work</a>
         <a class="btn ghost" href="https://www.instagram.com/reel/DZ4415HzB2O/" target="_blank" rel="noopener">Anchoring reel on Instagram</a>
         <a class="btn ghost" href="#contact">Book me</a>
       </div>
-      <div class="langs" aria-label="Languages"><span>Kannada</span><span>English</span><span>Hindi</span></div>
+      <div class="langs" aria-label="Languages"><span>Kannada</span><span>English</span><span>Hindi</span><span>Tulu (basic)</span></div>
     </div>
     <div class="portrait"><img src="portrait.jpg" alt="Rashya Shetty smiling while hosting a programme on stage with a microphone"></div>
   </header>
 
   <div class="facts" role="list">
-    <div class="fact" role="listitem"><b>3</b><span>podcasts hosted</span></div>
-    <div class="fact" role="listitem"><b>3</b><span>languages on mic</span></div>
-    <div class="fact" role="listitem"><b>3</b><span>job fairs coordinated</span></div>
-    <div class="fact" role="listitem"><b>~1,000</b><span>candidates supported</span></div>
+    <div class="fact" role="listitem"><b>3</b><span>podcasts with HR professionals</span></div>
+    <div class="fact" role="listitem"><b>3</b><span>languages on mic, plus basic Tulu</span></div>
+    <div class="fact" role="listitem"><b>1</b><span>voice dubbing project</span></div>
   </div>
 
   <section id="reels">
     <div class="reels-head">
-      <div><p class="eyebrow">Live mic</p><h2>Anchoring reels</h2></div>
-      <p>Raw clips from college programmes. Tap play to watch with sound.</p>
+      <div><p class="eyebrow">Live mic</p><h2>Anchoring</h2></div>
+      <p>Clips from college programmes. Tap play to watch with sound.</p>
     </div>
     <div class="rack">
       <figure class="clip" style="margin:0">
@@ -169,21 +173,48 @@ footer{padding-block:32px 48px;font-size:13px;color:var(--muted);display:flex;ju
         <p>A full-stage programme in a large auditorium.</p>
       </figure>
     </div>
+
+    <div class="reels-head sub">
+      <div><p class="eyebrow">Voice_Waves</p><h2>Voice and storytelling</h2></div>
+      <p>Story narration and brand content in my own voice.</p>
+    </div>
+    <div class="rack">
+      <figure class="clip" style="margin:0">
+        <video controls playsinline preload="metadata" poster="story-ajji.jpg" src="story-ajji.mp4"></video>
+        <div class="cap"><h3>Ajje Mane (Kannada story)</h3><span class="tc">01:21</span></div>
+        <p>A Kannada story about memories of a grandmother’s house.</p>
+      </figure>
+      <figure class="clip" style="margin:0">
+        <video controls playsinline preload="metadata" poster="story-hotel.jpg" src="story-hotel.mp4"></video>
+        <div class="cap"><h3>Room 309 (horror story)</h3><span class="tc">01:07</span></div>
+        <p>Narration for a horror story set in a heritage hotel.</p>
+      </figure>
+      <figure class="clip" style="margin:0">
+        <video controls playsinline preload="metadata" poster="promo.jpg" src="promo.mp4"></video>
+        <div class="cap"><h3>Product promotion</h3><span class="tc">00:18</span></div>
+        <p>A short brand promotion video.</p>
+      </figure>
+    </div>
+
+    <div class="reels-head sub">
+      <div><p class="eyebrow">Podcasts</p><h2>Podcast clips</h2></div>
+    </div>
+    <div class="soon"><b>Clips coming soon</b><span>Podcast conversations with three HR professionals from different companies will be added here.</span></div>
   </section>
 
   <section id="about">
     <div class="two">
-      <div><p class="eyebrow">About</p><h2>Comfortable on a live mic</h2></div>
+      <div><p class="eyebrow">About</p><h2>Formal or informal, I can host both</h2></div>
       <div>
-        <p>I have co-anchored Freshers' Day and anchored the farewell programme at Canara Engineering College, keeping segments moving and the audience involved from start to finish.</p>
-        <p>Off stage, I host podcasts, record narration for online courses and make voice-led content for YouTube and Instagram under Voice_Waves.</p>
+        <p>I have anchored college, cultural, festival and school events. I keep the programme moving and the audience involved, in a formal or a relaxed style. I am experienced in crowd handling and in working with all age groups.</p>
+        <p>Off stage, I host podcasts, take paid voice-over projects from script writing to final recording, and narrate stories on Voice_Waves.</p>
       </div>
     </div>
     <div class="svc">
-      <div><h3>Stage anchoring</h3><p>Freshers' Day, farewell and other college programmes. Scripted flow, live improvisation, audience interaction.</p></div>
-      <div><h3>Podcasts</h3><p>Three podcasts hosted, plus podcast shoots. Conversational, unhurried, mic-ready.</p></div>
-      <div><h3>Voice-over</h3><p>Online course narration with careful pronunciation, steady pacing and an engaging tone.</p></div>
-      <div><h3>Voice_Waves</h3><p>Short-form video and storytelling formats for YouTube and Instagram, from idea to script.</p></div>
+      <div><h3>Stage anchoring</h3><p>College, cultural, festival and school events. I host both formal and informal programmes with a clear flow and easy audience interaction.</p></div>
+      <div><h3>Podcasts</h3><p>Hosted podcast conversations with three HR professionals from different companies, recorded at my previous company.</p></div>
+      <div><h3>Voice-over</h3><p>Paid voice-over projects, from script writing to the final voice-over. I have also done one voice dubbing project.</p></div>
+      <div><h3>Voice_Waves</h3><p>Story narration and short-form videos for Instagram and YouTube, from idea to script to voice.</p></div>
     </div>
   </section>
 
@@ -192,7 +223,7 @@ footer{padding-block:32px 48px;font-size:13px;color:var(--muted);display:flex;ju
     <h2 style="margin-bottom:28px">Education and experience</h2>
     <div class="rows">
       <div class="row"><span class="when">2022 – 2026</span><div><b>B.E., Information Science &amp; Engineering</b><span>Canara Engineering College, Mangaluru · CGPA 7.79</span></div></div>
-      <div class="row"><span class="when">Recruitment</span><div><b>Job fair coordination</b><span>Supported three job fairs involving approximately 1,000 candidates.</span></div></div>
+      <div class="row"><span class="when">Recruitment</span><div><b>Job fair coordination</b><span>Supported three job fairs. Experienced in crowd handling and in working with all age groups.</span></div></div>
       <div class="row"><span class="when">Pre-University</span><div><b>PCMCs, Kundapura</b><span>69.66%</span></div></div>
       <div class="row"><span class="when">2020</span><div><b>SSLC · Government High School, Bidkalkatte</b><span>83.52%</span></div></div>
     </div>
@@ -203,7 +234,7 @@ footer{padding-block:32px 48px;font-size:13px;color:var(--muted);display:flex;ju
       <div>
         <p class="eyebrow">Contact</p>
         <h2>Need a host or a voice?</h2>
-        <p>Events, podcasts, course narration and RJ opportunities. Send a message with the date, venue and language.</p>
+        <p>Events, podcasts, story narration and anchoring. Send me the date, venue and language. I work in Kannada, English and Hindi, and I know a little Tulu.</p>
       </div>
       <div class="details">
         <div class="line"><span class="k">Email</span><span class="v" id="em">rashyashetty2004@gmail.com</span><button class="copy" type="button" data-copy="em">Copy</button></div>
@@ -214,7 +245,7 @@ footer{padding-block:32px 48px;font-size:13px;color:var(--muted);display:flex;ju
     </div>
   </section>
 
-  <footer><span>Rashya Shetty · Anchor, voice-over artist, content creator</span><span>Kannada · English · Hindi</span></footer>
+  <footer><span>Rashya Shetty · Anchor, voice-over artist, story narrator</span><span>Kannada · English · Hindi · Tulu (basic)</span></footer>
 </div>
 
 <script>
